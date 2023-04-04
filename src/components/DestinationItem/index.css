@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+}
+.image {
+  width: 100%;
+  max-width: 550px;
+}
+.item-container {
+  width: 100%;
+  max-width: 550px;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 200px;
+    height: 120px;
+  }
+  .item-container {
+    margin: 5px;
+    width: 210px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .name {
+    font-size: 14px;
+  }
+}
